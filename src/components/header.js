@@ -12,7 +12,7 @@ const Header = (title, date, temp) => {
   //  </div>
   //
 
-  const header = document.createElement('header');
+  const header = document.createElement('div');
   const dateSpan = document.createElement('span');
   const titleH1 = document.createElement('h1');
   const tempSpan = document.createElement('span');
